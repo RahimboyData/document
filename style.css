@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.dix{
+    height: 300px;
+    width: 300px;
+}
+@media only screen and (max-width:1000px){
+    div{
+        border-radius:50% 0% 0% 0%;
+        background-color: red;
+    }
+}
+@media only screen and (max-width:800px){
+    div{
+        border-radius:50% 50% 0% 0%;
+        background-color: aqua;
+    }
+}
+@media only screen and (max-width:600px){
+    div{
+        border-radius:50% 50% 0% 50%;
+        background-color: crimson;
+    }
+}
+@media only screen and (max-width:400px){
+    div{
+        border-radius:50%;
+        background-color: yellow;
+    }
+}
